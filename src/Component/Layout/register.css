@@ -1,0 +1,14 @@
+.form-control:focus {
+    background-color: white !important;
+  }
+
+  .form-control{
+    background-color: #EEE1d8 !important;
+  }
+
+  ::placeholder {
+    color: black !important;
+    opacity: 1; /* Firefox */
+  }
+  
+ 

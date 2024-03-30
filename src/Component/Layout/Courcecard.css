@@ -1,0 +1,9 @@
+.image_relative{
+position: relative;
+}
+
+.like_icon{
+    position: absolute;
+    top:3%;
+    right:0%;
+}

@@ -1,0 +1,13 @@
+.car:hover{
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    border-bottom: 1px solid black;
+   margin-bottom: 50px;
+    
+}
+
+.car{
+    transition: 0.5s ease-in;
+    
+}

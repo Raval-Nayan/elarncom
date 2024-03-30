@@ -1,0 +1,23 @@
+.showform{
+    display: block;
+
+}
+
+.hideform{
+    display: none;
+}
+.setting_menu p:hover{
+    border-bottom: 1px solid green;
+}
+
+
+
+.point{
+    cursor: pointer;
+    border-bottom: 1px solid green;
+}
+
+.active{
+    border-bottom: 1px solid green;
+}
+

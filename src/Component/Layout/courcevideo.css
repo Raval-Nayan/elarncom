@@ -1,0 +1,61 @@
+.bottomhover1 {
+    border-bottom: 2px solid green ;
+    cursor: pointer;
+    list-style: none;
+
+}
+
+.setting_menu li{
+    list-style: none;
+}
+
+.sidebar_li li{
+    list-style:decimal;
+}
+
+.sidebar_li{
+    background-color: #f4f4f4;
+}
+
+.text_show1{
+    display: block;
+} 
+.text_none1{
+    display: none;
+}
+
+.text_show2{
+    display: block;
+} 
+.text_none2{
+    display: none;
+}
+
+.text_show3{
+    display: block;
+} 
+.text_none3{
+    display: none;
+}
+
+.text_show4{
+    display: block;
+} 
+.text_none4{
+    display: none;
+}
+
+.text_show5{
+    display: block;
+} 
+.text_none5{
+    display: none;
+}
+
+
+
+
+
+.setting_menu li:hover{
+    border-bottom: 1px solid green;
+}

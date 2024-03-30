@@ -1,0 +1,37 @@
+.webicon:hover{
+    color:green !important;
+
+}
+.backcolor{
+    background-color: #f8f9f8 !important ; 
+   
+  
+}
+
+.list_style{
+    list-style: circle;
+   
+}
+
+ .position_icon{
+    position: relative;
+} 
+
+.position_icon{
+    position: absolute;
+    
+} 
+
+.logo_icon{
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+
+
+
+@media (min-width:700px){
+    .list_style li{
+        line-height: 15px  !important;
+        }
+}

@@ -1,0 +1,9 @@
+.content{
+    position: relative;
+}
+
+.profile_text{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}

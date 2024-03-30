@@ -1,0 +1,312 @@
+
+.navbar_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    margin: 0 auto;
+ height: 90px;
+    background-color:white ;
+
+}
+
+
+
+.input_search{
+    padding: 10px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border: none;
+}
+.search_box{
+    position: relative;
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+;
+}
+
+
+.Search_icon{
+    position: absolute;
+   right: 10px;
+   font-size: 20px;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+ border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+   
+    padding: 0px;
+    
+  }
+  
+  .button::before,
+  .button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    
+    transition: all .15s ease;
+  }
+  
+
+  
+  
+  
+  .button:active,
+  .button:focus {
+    outline: none;
+   
+  }
+  
+  .button:active::before,
+  .button:active::after {
+    right: 3px;
+    left: 3px;
+  }
+  
+  .button:active::before {
+    top: 3px;
+  }
+  
+  .button:active::after {
+    bottom: 3px;
+  }
+  
+  .button_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color:  #1CAB94;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+    border-radius: 10px;
+  }
+  
+  .button_lg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 2px;
+    background-color: #0f1923;
+  }
+  
+  .button_lg::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 4px;
+    height: 4px;
+    background-color: #0f1923;
+    transition: all .2s ease;
+  }
+  
+  .button_sl {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: -1px;
+    left: -8px;
+    width: 0;
+    background-color:  #0f1923;
+    transform: skew(-15deg);
+    transition: all .2s ease;
+  }
+  
+  .button_text {
+    position: relative;
+  }
+  
+  .button:hover {
+    color: #0f1923;
+  }
+  
+  .button:hover .button_sl {
+    width: calc(100% + 15px);
+  }
+  
+  .button:hover .button_lg::after {
+    background-color: #fff;
+  }
+
+
+  .menu_box{
+    display: flex;
+    gap:1.5rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .nav_text{
+    text-decoration: none;
+    color: #221638 ;
+    font-weight: 600 ;
+    transition: 0.2s ease-in;
+   font-size: 15px !important;
+  }
+
+  .nav_text:hover{
+    transition: 0.2s ease-out;
+    color: #1CAB94;
+    }
+
+ 
+
+.li_style{
+    transform: none;
+}
+  .li_style:hover{
+    transform: scale(1.1);
+  }
+  .shoping_cart{
+    font-size: 22px !important;
+   
+  }
+
+  .menu_inner{
+    display: flex;
+    gap:1.5rem;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    font-size: 15px;
+  }
+
+  .menu_inners_second{
+   
+    flex-direction: column;
+    gap:1.5rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    display: none;
+    transition: 1s ease-in;
+  
+  }
+
+  .menu_innerss_second{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    list-style: none;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 20px;
+    transition: 1s ease-out;
+    background-color: white;
+    padding: 10px;
+    margin: 0px;
+    width:98%;
+    box-shadow: 5px 5px 5px lightblue;
+  }
+  .li_search{
+    width: 100%;
+  }
+  
+ 
+
+  .search_boxs{
+    position: relative;
+  
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Search_icon{
+    position: absolute;
+   right: 10px;
+   font-size: 20px;
+}
+  .menuIcon{
+    display: block;
+    gap:1.5rem;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+
+  .input_searchs{
+    padding: 10px;
+   width: 100%;
+    background-color: #f5f5f5;
+    border: none;
+  }
+
+
+
+  .menu_icon{
+    display: none;
+  }
+  .top_div{
+    width: 100%;
+  }
+
+  @media (min-width:776px){
+    .menu_innerss_second{
+      display: none;
+    }
+    
+  }
+  @media only screen and (max-width: 776px) {
+
+    .menu_box{
+      display: flex;
+      gap: 0.1rem;
+      justify-content: flex-start;
+    }
+    .second_box{
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    
+    .menu_inner{
+        display: none;
+    }
+
+    .search_box{
+      display: none;
+    }
+.button {
+  width: 90%;
+}
+    
+  .menu_icon{
+    display: flex;
+  }
+
+  .button_text{
+    font-size: 10px;
+  }
+  }
